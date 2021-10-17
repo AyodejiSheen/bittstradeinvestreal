@@ -1,0 +1,5 @@
+.login-body {
+  background: linear-gradient(to top, rgb(190, 30, 45) 0%, rgb(20, 20, 70) 100%) 0% 0% / cover no-repeat !important;
+  height: 110vh!important;
+  font-family: "Poppins", sans-serif;
+} 

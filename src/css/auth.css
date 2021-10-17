@@ -1,0 +1,428 @@
+:root {
+  --blue: #0476e4;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #ff4d66;
+  --orange: #fd7e14;
+  --yellow: #ffb93e;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #0476e4;
+  --secondary: #6c757d;
+  --success: #35e38f;
+  --info: #17a2b8;
+  --warning: #ffb93e;
+  --danger: #ff4d66;
+  --light: #f8f9fa;
+  --second: #ffa938;
+  --tree: #001f5d;
+  --dark: #343a40;
+  --clp: #6881b4;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Montserrat", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* body {
+  background: linear-gradient(to top, rgb(190, 30, 45) 0%, rgb(20, 20, 70) 100%) 0% 0% / cover no-repeat !important;
+  padding: 100px 0;
+} */
+
+body.wallet {
+  background: pink fixed no-repeat !important;
+  background-size: cover !important;
+  min-height: 100vh;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 425px) {
+  body.wallet {
+    padding: 1rem;
+  }
+}
+
+body .auth {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+body .auth .main {
+  background: #fff;
+}
+@media (max-width: 768px) {
+  body .auth .main {
+    display: block !important;
+  }
+}
+body .auth .head {
+  padding-bottom: 20px;
+}
+body .auth .head .back {
+  color: #6881b4;
+  font-weight: 300;
+  margin-top: 10px;
+  display: inline-block;
+}
+body .auth .head .back svg {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  fill: #6881b4;
+}
+body .auth .head::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+body .auth .footer {
+  padding: 30px 0;
+}
+body .auth .footer .socials {
+  padding: 0;
+  list-style: none;
+}
+@media (max-width: 768px) {
+  body .auth .footer .socials {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+}
+body .auth .footer .socials li {
+  display: inline-block;
+}
+body .auth .footer .socials li a {
+  margin: 5px 10px;
+}
+body .auth .footer .socials li a svg {
+  height: 20px;
+  width: 20px;
+  fill: #29417e;
+}
+body .auth .footer .socials li a:hover svg {
+  fill: #3b5eb6;
+}
+body .auth .footer .socials::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+body .auth .footer .menu ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+body .auth .footer .menu ul li {
+  float: left;
+}
+body .auth .footer .menu ul li a {
+  display: block;
+  padding: 0 10px;
+  color: #29417e;
+  font-weight: 600;
+  font-size: 11px;
+  transition: 0.3s ease;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  body .auth .footer .menu ul li a {
+    transition: none;
+  }
+}
+body .auth .footer .menu ul li a:hover {
+  color: #3b5eb6;
+}
+@media (max-width: 1000px) {
+  body .auth .footer .menu ul li a {
+    padding: 10px !important;
+  }
+}
+body .auth .footer .menu ul li .active {
+  color: #6881b4;
+}
+body .auth .footer .menu ul li:first-child a {
+  padding-left: 0;
+}
+body .auth .footer .menu ul::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+body .auth .left {
+  background-color: pink;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 400px;
+  padding: 50px;
+}
+@media (max-width: 768px) {
+  body .auth .left {
+    float: none !important;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+}
+body .auth .left .bb {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  body .auth .left .bb {
+    margin: 0 auto;
+  }
+}
+body .auth .left h2 {
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  body .auth .left h2 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+body .auth .left p {
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  body .auth .left p {
+    font-size: 12px;
+  }
+}
+body .auth .left .btn {
+  background: #fff;
+  color: #001f5d;
+  font-weight: 600;
+  width: 100%;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  body .auth .left .btn {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+body .auth .right {
+  padding: 80px 90px;
+}
+@media (max-width: 768px) {
+  body .auth .right {
+    float: none !important;
+    width: 100%;
+    padding: 30px 20px;
+  }
+}
+body .auth .right .title {
+  text-align: center;
+}
+body .auth .right .title .t {
+  color: #6881b4;
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  padding-top: 9px;
+  padding-left: 62px;
+}
+@media (max-width: 768px) {
+  body .auth .right .title .t {
+    font-size: 16px;
+    text-align: left;
+    padding-top: 15px;
+  }
+}
+body .auth .right .title .icon {
+  background: #e1e6f0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  float: left;
+}
+body .auth .right .title .icon svg {
+  height: 30px;
+  width: 30px;
+  fill: #6881b4;
+  display: block;
+  margin: 0 auto;
+}
+body .auth .right .title::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+body .auth .right .input-box2 .label {
+  font-size: 10px;
+  padding: 4px 13px 4px 4px;
+  min-width: 160px;
+}
+@media (max-width: 768px) {
+  body .auth .right .input-box2 .label {
+    min-width: 50px;
+  }
+}
+@media (max-width: 768px) {
+  body .auth .right .input-box2 .label span {
+    display: none;
+  }
+}
+body .auth .right .input-box2 .label .icon {
+  height: 15px;
+  width: 20px;
+  fill: #d1d9e8;
+  margin-right: 5px;
+}
+body .auth .right .input-box2 .form-control {
+  width: calc(100% - 50px);
+}
+body .auth .right .forgot {
+  color: #6a9ad2;
+}
+body .auth .right .forgot a {
+  color: #3266ab;
+  font-weight: 600;
+  text-decoration: underline !important;
+}
+body .recoverpass {
+  width: 500px;
+}
+body .recoverpass .menu {
+  display: none !important;
+}
+body .recoverpass .socials {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+body .register-complete {
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #9fbcf8;
+}
+body .register-complete .main {
+  background: #0e2f74;
+  padding: 60px 0;
+}
+@media (max-width: 768px) {
+  body .register-complete .main {
+    display: block !important;
+  }
+}
+body .register-complete .title {
+  text-align: center;
+}
+body .register-complete .title .t {
+  color: #35e38f;
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+}
+@media (max-width: 768px) {
+  body .register-complete .title .t {
+    font-size: 16px;
+  }
+}
+body .register-complete .title .icon {
+  background: #19607b;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+body .register-complete .title .icon svg {
+  height: 30px;
+  width: 30px;
+  fill: #35e38f;
+  display: block;
+  margin: 0 auto;
+}
+body .register-complete .title::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+body .register-complete .g-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+body .register-complete .generate-username {
+  background: #6881b4;
+  color: #001f5d;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 20px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 17px;
+}
+body .register-complete .btn {
+  background: #fff;
+  font-size: 15px;
+  color: #001f5d;
+  padding: 12px 40px;
+  font-weight: 700;
+}
+
+.signup-payments {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto 20px;
+}
+.signup-payments ul {
+  overflow: hidden;
+  margin: 20px 0 0;
+  padding: 0;
+}
+.signup-payments ul li {
+  list-style: none;
+  float: left;
+  width: 33%;
+  margin-bottom: 15px;
+}
+.signup-payments ul li svg {
+  width: 25px;
+  height: 25px;
+}
+
+.walletSelect {
+  max-width: 640px;
+  background: #fff;
+  padding: 50px;
+  border-radius: 5px;
+}
+.walletSelect .selections {
+  display: flex;
+  flex-wrap: wrap;
+}
+.walletSelect .selections .item {
+  flex: 0 0 32%;
+  max-width: 32%;
+  padding: 20px;
+  text-align: center;
+}
+.walletSelect .selections .item .icon {
+  width: 40px;
+  height: 40px;
+  background: red;
+  border-radius: 50%;
+  fill: #fff;
+  margin-bottom: 10px;
+}

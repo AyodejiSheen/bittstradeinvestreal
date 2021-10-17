@@ -1,0 +1,273 @@
+.icn {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
+    background-image: url("../img/sprt.png");
+  }
+  .icn.white {
+    filter: grayscale(1) brightness(8);
+  }
+  
+  .icn.small {
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+  }
+  
+  .icn.small.leverage {
+    background-position-y: -0px;
+  }
+  .icn.small.crypto-pairs {
+    background-position-y: -40px;
+  }
+  .icn.small.currency-pairs {
+    background-position-y: -80px;
+  }
+  .icn.small.stocks {
+    background-position-y: -120px;
+  }
+  .icn.small.indices {
+    background-position-y: -160px;
+  }
+  .icn.small.shield {
+    background-position-y: -200px;
+  }
+  .icn.small.money-check {
+    background-position-y: -240px;
+  }
+  .icn.small.low-spreads {
+    background-position-y: -280px;
+  }
+  .icn.small.low-commission {
+    background-position-y: -320px;
+  }
+  .icn.small.candles {
+    background-position-y: -360px;
+  }
+  .icn.small.demo {
+    background-position-y: -400px;
+  }
+  .icn.small.new-account {
+    background-position-y: -440px;
+  }
+  .icn.small.cog {
+    background-position-y: -480px;
+  }
+  .icn.small.earnings {
+    background-position-y: -520px;
+  }
+  .icn.small.support {
+    background-position-y: -560px;
+  }
+  .icn.small.withdraw {
+    background-position-y: -600px;
+  }
+  .icn.small.manager {
+    background-position-y: -640px;
+  }
+  .icn.small.no-fees {
+    background-position-y: -680px;
+  }
+  .icn.small.support247 {
+    background-position-y: -720px;
+  }
+  .icn.small.stats {
+    background-position-y: -760px;
+  }
+  .icn.small.five-dollars {
+    background-position-y: -800px;
+  }
+  .icn.small.referrals {
+    background-position-y: -840px;
+  }
+  .icn.small.life-commission {
+    background-position-y: -880px;
+  }
+  .icn.small.download {
+    background-position-y: -920px;
+  }
+  .icn.small.month-pay {
+    background-position-y: -960px;
+  }
+  .icn.small.percent-up {
+    background-position-y: -1000px;
+  }
+  
+  .icn.leverage {
+    background-position-y: -0px;
+  }
+  .icn.crypto-pairs {
+    background-position-y: -80px;
+  }
+  .icn.currency-pairs {
+    background-position-y: -160px;
+  }
+  .icn.stocks {
+    background-position-y: -240px;
+  }
+  .icn.indices {
+    background-position-y: -320px;
+  }
+  .icn.shield {
+    background-position-y: -400px;
+  }
+  .icn.money-check {
+    background-position-y: -480px;
+  }
+  .icn.low-spreads {
+    background-position-y: -560px;
+  }
+  .icn.low-commission {
+    background-position-y: -640px;
+  }
+  .icn.candles {
+    background-position-y: -720px;
+  }
+  .icn.demo {
+    background-position-y: -800px;
+  }
+  .icn.new-account {
+    background-position-y: -880px;
+  }
+  .icn.cog {
+    background-position-y: -960px;
+  }
+  .icn.earnings {
+    background-position-y: -1040px;
+  }
+  .icn.support {
+    background-position-y: -1120px;
+  }
+  .icn.withdraw {
+    background-position-y: -1200px;
+  }
+  .icn.manager {
+    background-position-y: -1280px;
+  }
+  .icn.no-fees {
+    background-position-y: -1360px;
+  }
+  .icn.support247 {
+    background-position-y: -1440px;
+  }
+  .icn.stats {
+    background-position-y: -1520px;
+  }
+  .icn.five-dollars {
+    background-position-y: -1600px;
+  }
+  .icn.referrals {
+    background-position-y: -1680px;
+  }
+  .icn.life-commission {
+    background-position-y: -1760px;
+  }
+  .icn.download {
+    background-position-y: -1840px;
+  }
+  .icn.month-pay {
+    background-position-y: -1920px;
+  }
+  .icn.percent-up {
+    background-position-y: -2000px;
+  }
+  
+  .titl {
+    font-size: 1.7rem !important;
+    font-weight: bolder;
+    line-height: 1.2;
+  }
+  
+  .aff {
+    margin-top: 10px;
+  }
+  
+  .s-hlt-c {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px 10px 10px 90px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    background-color: rgba(200, 30, 50, 1);
+    transition: all 0.3s;
+    cursor: default !important;
+  }
+  .s-hlt-c:hover {
+    background-color: rgb(37, 37, 63);
+    cursor: pointer;
+    box-shadow: 0 5px 20px 0 rgba(20, 20, 70, 0.5);
+  }
+  .s-hlt-c .icn {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    filter: grayscale(1) brightness(10);
+    transition: all 0.3s;
+  }
+  .s-hlt-c:hover .icn {
+    transform: translateY(-50%) scale(1.3);
+  }
+  .s-hlt-c p {
+    width: calc(100% - 100px);
+    margin: 0;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .offer{
+      color: rgba(190, 30, 50, 1)!important;
+      font-weight: bolder;
+      font-size: 2rem;
+      margin-bottom: 50px;
+  }
+  
+  
+  @media only screen and (min-device-width:320px) and (max-device-width:750px) {
+      
+      .aff-join{
+          font-size: 12px;
+      }
+  
+      .offer{
+          margin-bottom: 20px!important;
+          font-size: 1.5rem;
+          margin-top: 30px;
+      }
+  }
+  
+  @media only screen and (min-device-width:755px) and (max-device-width:1000px) {
+  
+      .aff-join{
+          font-size: 12px;
+      }
+  
+      .s-hlt-c p{
+          font-size: 12px;
+      }
+  
+      .offer{
+          margin-bottom: 20px!important;
+          font-size: 1.5rem;
+          margin-top: 30px;
+      }
+  
+      .titl{
+          font-size: 18px!important;
+      }
+  
+  
+      .work-note{
+          font-size: 14px!important;
+          padding: 0px!important;
+      }
+  
+  }

@@ -1,0 +1,33 @@
+.loading{
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50px;    
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: loadin 1s infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    border-top: none;
+}
+
+
+.loader-body {
+    background: linear-gradient(to top, rgb(190, 30, 45) 0%, rgb(20, 20, 70) 100%) 0% 0% / cover no-repeat !important;
+    height: 100vh!important;
+    padding-top: 10rem;
+  } 
+
+
+@keyframes loadin {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
